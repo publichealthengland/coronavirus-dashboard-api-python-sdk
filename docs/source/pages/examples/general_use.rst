@@ -40,8 +40,8 @@ In the case of this example, the metrics are as follows:
 
 - ``newCasesByPublishDate``: New cases (by publish date)
 - ``cumCasesByPublishDate``: Cumulative cases (by publish date)
-- ``newDeathsByDeathDate``: New deaths (by death date)
-- ``cumDeathsByDeathDate``: Cumulative deaths (by death date)
+- ``newDeaths28DaysByDeathDate``: New deaths (by death date)
+- ``cumDeaths28DaysByDeathDate``: Cumulative deaths (by death date)
 
 In its simplest form, we construct the structure as follows:
 
@@ -53,8 +53,8 @@ In its simplest form, we construct the structure as follows:
         "areaCode": "areaCode",
         "newCasesByPublishDate": "newCasesByPublishDate",
         "cumCasesByPublishDate": "cumCasesByPublishDate",
-        "newDeathsByDeathDate": "newDeathsByDeathDate",
-        "cumDeathsByDeathDate": "cumDeathsByDeathDate"
+        "newDeaths28DaysByDeathDate": "newDeaths28DaysByDeathDate",
+        "cumDeaths28DaysByDeathDate": "cumDeaths28DaysByDeathDate"
     }
 
 
@@ -92,8 +92,8 @@ or ``.get_dataframe()`` methods:
                 'areaCode': 'E92000001',
                 'newCasesByPublishDate': 547,
                 'cumCasesByPublishDate': 259022,
-                'newDeathsByDeathDate': None,
-                'cumDeathsByDeathDate': None
+                'newDeaths28DaysByDeathDate': None,
+                'cumDeaths28DaysByDeathDate': None
             },
             {
                 'date': '2020-07-27',
@@ -101,8 +101,8 @@ or ``.get_dataframe()`` methods:
                 'areaCode': 'E92000001',
                 'newCasesByPublishDate': 616,
                 'cumCasesByPublishDate': 258475,
-                'newDeathsByDeathDate': 20,
-                'cumDeathsByDeathDate': 41282
+                'newDeaths28DaysByDeathDate': 20,
+                'cumDeaths28DaysByDeathDate': 41282
             },
             ...
         ],

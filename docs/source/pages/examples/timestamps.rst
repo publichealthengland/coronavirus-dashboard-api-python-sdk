@@ -52,8 +52,8 @@ Latest API timestamp
         "areaCode": "areaCode",
         "newCasesByPublishDate": "newCasesByPublishDate",
         "cumCasesByPublishDate": "cumCasesByPublishDate",
-        "newDeathsByDeathDate": "newDeathsByDeathDate",
-        "cumDeathsByDeathDate": "cumDeathsByDeathDate"
+        "newDeaths28DaysByDeathDate": "newDeaths28DaysByDeathDate",
+        "cumDeaths28DaysByDeathDate": "cumDeaths28DaysByDeathDate"
     }
 
     england_only = [

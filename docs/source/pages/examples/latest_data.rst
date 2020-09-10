@@ -37,8 +37,8 @@ the ``structure``. A list of metrics is available on the `Developers Guide`_ web
         "areaCode": "areaCode",
         "newCasesByPublishDate": "newCasesByPublishDate",
         "cumCasesByPublishDate": "cumCasesByPublishDate",
-        "newDeathsByDeathDate": "newDeathsByDeathDate",
-        "cumDeathsByDeathDate": "cumDeathsByDeathDate"
+        "newDeaths28DaysByDeathDate": "newDeaths28DaysByDeathDate",
+        "cumDeaths28DaysByDeathDate": "cumDeaths28DaysByDeathDate"
     }
 
     api = Cov19API(
@@ -61,8 +61,8 @@ the ``structure``. A list of metrics is available on the `Developers Guide`_ web
                 "areaCode": "E92000001",
                 "newCasesByPublishDate": 547,
                 "cumCasesByPublishDate": 259022,
-                "newDeathsByDeathDate": None,
-                "cumDeathsByDeathDate": None
+                "newDeaths28DaysByDeathDate": None,
+                "cumDeaths28DaysByDeathDate": None
             },
             {
                 "date": "2020-07-28",
@@ -70,8 +70,8 @@ the ``structure``. A list of metrics is available on the `Developers Guide`_ web
                 "areaCode": "N92000002",
                 "newCasesByPublishDate": 9,
                 "cumCasesByPublishDate": 5921,
-                "newDeathsByDeathDate": None,
-                "cumDeathsByDeathDate": None
+                "newDeaths28DaysByDeathDate": None,
+                "cumDeaths28DaysByDeathDate": None
             },
             {
                 "date": "2020-07-28",
@@ -79,8 +79,8 @@ the ``structure``. A list of metrics is available on the `Developers Guide`_ web
                 "areaCode": "S92000003",
                 "newCasesByPublishDate": 4,
                 "cumCasesByPublishDate": 18558,
-                "newDeathsByDeathDate": None,
-                "cumDeathsByDeathDate": None
+                "newDeaths28DaysByDeathDate": None,
+                "cumDeaths28DaysByDeathDate": None
             },
             {
                 "date": "2020-07-28",
@@ -88,8 +88,8 @@ the ``structure``. A list of metrics is available on the `Developers Guide`_ web
                 "areaCode": "W92000004",
                 "newCasesByPublishDate": 21,
                 "cumCasesByPublishDate": 17191,
-                "newDeathsByDeathDate": None,
-                "cumDeathsByDeathDate": None
+                "newDeaths28DaysByDeathDate": None,
+                "cumDeaths28DaysByDeathDate": None
             }
         ],
         "lastUpdate": "2020-07-28T15:34:31.000000Z",

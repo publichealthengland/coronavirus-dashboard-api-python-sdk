@@ -23,8 +23,8 @@ Pandas ``DataFrame`` object.
         "areaCode": "areaCode",
         "newCasesByPublishDate": "newCasesByPublishDate",
         "cumCasesByPublishDate": "cumCasesByPublishDate",
-        "newDeathsByDeathDate": "newDeathsByDeathDate",
-        "cumDeathsByDeathDate": "cumDeathsByDeathDate"
+        "newDeaths28DaysByDeathDate": "newDeaths28DaysByDeathDate",
+        "cumDeaths28DaysByDeathDate": "cumDeaths28DaysByDeathDate"
     }
 
     api = Cov19API(
@@ -38,7 +38,7 @@ Pandas ``DataFrame`` object.
 
 ::
 
-             date          areaName   areaCode  newCasesByPublishDate  cumCasesByPublishDate newDeathsByDeathDate cumDeathsByDeathDate
+             date          areaName   areaCode  newCasesByPublishDate  cumCasesByPublishDate newDeaths28DaysByDeathDate cumDeaths28DaysByDeathDate
     0  2020-08-08           England  E92000001                    679               267324.0                 None                 None
     1  2020-08-08  Northern Ireland  N92000002                      0                    NaN                 None                 None
     2  2020-08-08          Scotland  S92000003                     60                18950.0                 None                 None

@@ -29,8 +29,8 @@ methods.
         "areaCode": "areaCode",
         "newCasesByPublishDate": "newCasesByPublishDate",
         "cumCasesByPublishDate": "cumCasesByPublishDate",
-        "newDeathsByDeathDate": "newDeathsByDeathDate",
-        "cumDeathsByDeathDate": "cumDeathsByDeathDate"
+        "newDeaths28DaysByDeathDate": "newDeaths28DaysByDeathDate",
+        "cumDeaths28DaysByDeathDate": "cumDeaths28DaysByDeathDate"
     }
 
     api = Cov19API(
@@ -47,7 +47,7 @@ contents of the file would be as follows:
 
 ::
 
-    date,areaName,areaCode,newCasesByPublishDate,cumCasesByPublishDate,newDeathsByDeathDate,cumDeathsByDeathDate
+    date,areaName,areaCode,newCasesByPublishDate,cumCasesByPublishDate,newDeaths28DaysByDeathDate,cumDeaths28DaysByDeathDate
     2020-07-28,England,E92000001,547,259022,,
     2020-07-28,Northern Ireland,N92000002,9,5921,,
     2020-07-28,Scotland,S92000003,4,18558,,
