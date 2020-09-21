@@ -88,7 +88,7 @@ class Cov19API:
 
             The output is extracted from the header and is accurate to
             the second.
-            
+
         .. warning::
 
             The ISO-8601 standard requires a ``"Z"`` character to be added
@@ -158,7 +158,7 @@ class Cov19API:
             most other libraries; e.g. ``pandas``. If you wish to parse the
             timestamp using the the ``datetime`` library, make sure that you
             remove the trailing ``"Z"`` character.
-            
+
         Returns
         -------
         str
@@ -567,7 +567,8 @@ class Cov19API:
 
         data = self.get_json()
         df = DataFrame(data["data"])
-
+        if 'date' in df.columns:
+            df['date'] = pd.to_datetime(df['date'])
         return df
 
     def __str__(self):
